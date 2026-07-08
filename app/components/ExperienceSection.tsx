@@ -2,42 +2,30 @@
 
 const EXPERIENCE = [
   {
-    role: "Virtual Assistant",
+    role: "Virtual Assistant & Admin Support",
     company: "Various International Clients",
     period: "2022 — 2024",
-    type: "Remote, Full-time",
+    type: "Remote, Freelance",
     color: "#0d9488",
     bullets: [
-      "Managed inboxes, calendars, and communications for multiple international clients simultaneously, achieving consistent same-day response times.",
-      "Coordinated scheduling across different time zones using Google Calendar and Calendly, reducing scheduling conflicts by over 40%.",
-      "Conducted web research, compiled competitor analysis reports, and maintained organised data in Google Sheets and Notion databases.",
-      "Prepared professional documents, meeting agendas, meeting minutes, and follow-up reports using Google Docs and Microsoft Word.",
-      "Managed client social media accounts using Canva for design and Buffer/Hootsuite for scheduling — maintaining consistent brand voice.",
-      "Leveraged AI tools (ChatGPT, Claude) to draft content, summarise documents, and automate repetitive data-entry workflows via Zapier.",
-      "Tracked project milestones and deadlines in Trello, Asana, and ClickUp — kept distributed teams aligned and on schedule.",
+      "Managed email inboxes for multiple clients — filtering, prioritizing, and drafting responses to maintain a zero-backlog inbox.",
+      "Coordinated calendars and appointments across time zones via Google Calendar and Outlook, handling reminders and conflict resolution.",
+      "Conducted online research for competitor analysis, lead generation, and supplier sourcing — delivering organized reports via Google Sheets.",
+      "Maintained CRM records and data entry with high accuracy, keeping spreadsheets and cloud file systems (Drive, Dropbox) up to date.",
+      "Managed social media accounts for small business clients — scheduling posts, engaging followers, and building monthly content calendars.",
+      "Prepared reports, presentations, and documents using Google Workspace and Microsoft Office for weekly updates and meeting agendas.",
+      "Bridged communication between clients and teams — briefing notes, requirement clarifications, and stakeholder status updates.",
+      "Coordinated remote teams via Slack, Zoom, and Trello — tracking tasks and following up on deadlines to keep projects on schedule.",
+      "Used AI tools (ChatGPT, Claude) to accelerate research, draft content, and automate repetitive workflows, cutting turnaround time significantly.",
     ],
-    tags: ["Google Workspace", "Trello", "Asana", "Canva", "ChatGPT", "Zapier", "Notion", "Slack"],
-  },
-  {
-    role: "Administrative Support",
-    company: "Freelance / Contract",
-    period: "2021 — 2022",
-    type: "Remote, Part-time",
-    color: "#7c3aed",
-    bullets: [
-      "Provided administrative and operational support to small business owners, handling day-to-day inbox management and appointment coordination.",
-      "Performed data entry, database maintenance, and spreadsheet management with high accuracy and attention to detail.",
-      "Created presentation decks, business proposals, and client-facing documents using PowerPoint and Google Slides.",
-      "Assisted with basic CRM management — updating contact records, tracking leads, and sending follow-up correspondence.",
-    ],
-    tags: ["Microsoft Office", "Google Workspace", "CRM", "Data Entry", "Email Management"],
+    tags: ["Google Workspace", "Microsoft Office", "Trello", "Asana", "Slack", "Zoom", "Canva", "ChatGPT", "Claude AI", "CRM", "Zapier"],
   },
 ];
 
 const EDUCATION = {
   degree: "Bachelor of Science in Information Technology",
   school: "Davao del Norte State College",
-  location: "Panabo City, Philippines",
+  location: "New Visayas, Panabo City, Philippines",
   period: "Aug 2015 — Aug 2019",
 };
 

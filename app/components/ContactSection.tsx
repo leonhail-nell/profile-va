@@ -33,8 +33,8 @@ const CONTACT_ITEMS = [
       </svg>
     ),
     label: "LinkedIn",
-    value: "linkedin.com/in/leonhail-paypa",
-    href: "https://linkedin.com/in/leonhail-paypa",
+    value: "linkedin.com/in/leonhail-paypa-97a95918b",
+    href: "https://linkedin.com/in/leonhail-paypa-97a95918b",
   },
   {
     icon: (

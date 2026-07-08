@@ -110,8 +110,8 @@ export default function HeroSection() {
                 marginBottom: 20,
               }}
             >
-              Your Reliable{" "}
-              <span className="gradient-text">Virtual Assistant</span>
+              Virtual Assistant{" "}
+              <span className="gradient-text">&amp; Admin Support</span>
             </h1>
 
             <p
@@ -123,9 +123,12 @@ export default function HeroSection() {
                 maxWidth: 480,
               }}
             >
-              Hi, I&#39;m <strong style={{ color: "var(--text)" }}>Leonhail (Nell) Paypa</strong> — a detail-obsessed
-              VA with 2+ years helping international clients stay organized, on schedule, and
-              ahead of the curve. I leverage AI tools to deliver faster, smarter results.
+              Hi, I&#39;m <strong style={{ color: "var(--text)" }}>Leonhail (Nell) Paypa</strong> — a detail-oriented
+              VA and Admin Support Specialist with 2+ years of remote experience serving
+              international clients. Backed by a strong{" "}
+              <strong style={{ color: "var(--text)" }}>technical background in web development</strong>{" "}
+              — capable of handling tech-related tasks and AI tools that most VAs cannot.
+              Highly organized and proactive across time zones.
             </p>
 
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
@@ -216,56 +219,71 @@ export default function HeroSection() {
             <div
               style={{
                 position: "relative",
-                width: 340,
+                width: 300,
                 maxWidth: "100%",
               }}
             >
-              {/* Avatar placeholder */}
+              {/* Profile photo */}
               <div
                 style={{
                   width: "100%",
-                  aspectRatio: "1",
+                  aspectRatio: "3/4",
                   borderRadius: 28,
-                  background: "linear-gradient(135deg, #ccfbf1 0%, #f0fdfa 50%, #d1fae5 100%)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  border: "2px solid var(--border)",
+                  border: "3px solid var(--border)",
                   boxShadow: "var(--shadow-lg)",
                   overflow: "hidden",
                   position: "relative",
+                  background: "linear-gradient(135deg, #ccfbf1, #f0fdfa)",
                 }}
               >
-                {/* Decorative initials */}
-                <div style={{ textAlign: "center" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/avatar.png"
+                  alt="Leonhail Paypa — Virtual Assistant"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
+                  }}
+                />
+                {/* Name overlay at bottom */}
+                <div
+                  style={{
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    padding: "32px 20px 20px",
+                    background: "linear-gradient(to top, rgba(15,47,43,0.85) 0%, transparent 100%)",
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 4,
+                  }}
+                >
+                  <div style={{ fontWeight: 700, fontSize: 16, color: "#fff" }}>Leonhail Paypa</div>
+                  <div style={{ fontSize: 12, color: "rgba(255,255,255,0.75)" }}>Virtual Assistant &amp; Admin Support</div>
                   <div
                     style={{
-                      width: 120,
-                      height: 120,
-                      borderRadius: "50%",
-                      background: "linear-gradient(135deg, #0d9488, #0f766e)",
-                      display: "flex",
+                      display: "inline-flex",
                       alignItems: "center",
-                      justifyContent: "center",
-                      margin: "0 auto 16px",
-                      fontSize: 48,
-                      fontWeight: 800,
+                      gap: 5,
+                      marginTop: 4,
+                      padding: "3px 10px",
+                      borderRadius: 999,
+                      background: "rgba(255,255,255,0.15)",
+                      backdropFilter: "blur(4px)",
+                      border: "1px solid rgba(255,255,255,0.2)",
                       color: "#fff",
-                      boxShadow: "0 8px 24px rgba(13,148,136,0.3)",
+                      fontSize: 12,
+                      fontWeight: 500,
+                      width: "fit-content",
                     }}
                   >
-                    N
-                  </div>
-                  <div style={{ fontWeight: 700, fontSize: 18, color: "var(--heading)" }}>Leonhail Paypa</div>
-                  <div style={{ fontSize: 13, color: "var(--text-muted)", marginTop: 4 }}>Virtual Assistant</div>
-                  <div className="badge" style={{ marginTop: 12, justifyContent: "center" }}>
                     🇵🇭 Philippines
                   </div>
                 </div>
-
-                {/* Decorative circles */}
-                <div style={{ position: "absolute", top: 20, right: 20, width: 60, height: 60, borderRadius: "50%", background: "rgba(13,148,136,0.1)" }} />
-                <div style={{ position: "absolute", bottom: 20, left: 20, width: 40, height: 40, borderRadius: "50%", background: "rgba(13,148,136,0.08)" }} />
               </div>
 
               {/* Floating card: timezone */}

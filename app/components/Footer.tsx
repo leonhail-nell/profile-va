@@ -1,3 +1,5 @@
+"use client";
+
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
@@ -39,7 +41,7 @@ export default function Footer() {
 
           <div style={{ display: "flex", gap: 16 }}>
             <a
-              href="https://linkedin.com/in/leonhail-paypa"
+              href="https://linkedin.com/in/leonhail-paypa-97a95918b"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "var(--text-dim)", textDecoration: "none", fontSize: 13, transition: "color 0.2s" }}
